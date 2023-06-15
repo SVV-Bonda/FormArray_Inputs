@@ -24,7 +24,12 @@ export class AppComponent  {
   }
 
   Inputremove(i: any) {
-    this.inputs.removeAt(i);
+    console.log(this.inputs.length);
+    if(this.inputs.length == 1){
+      this.inputs.removeAt(0);
+    }else{
+      this.inputs.removeAt(i);
+    }
   }
 
   save(){
