@@ -1,5 +1,5 @@
-<form>
-  <div class="form-group set">
+<form (ngSubmit)="save()">
+  <div>
     <label>Add Column:</label>
     <div
       class="d-flex align-items-baseline"
@@ -12,5 +12,9 @@
     <h6 class="m-0 ps-3">
       <span (click)="Inputadd()">Add Input</span>
     </h6>
+  </div>
+
+  <div>
+    <button type="submit">Save</button>
   </div>
 </form>

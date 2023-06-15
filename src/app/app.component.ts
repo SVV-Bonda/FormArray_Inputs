@@ -26,4 +26,8 @@ export class AppComponent  {
   Inputremove(i: any) {
     this.inputs.removeAt(i);
   }
+
+  save(){
+    console.log(this.form.value)
+  }
 }
