@@ -28,6 +28,6 @@ export class AppComponent  {
   }
 
   save(){
-    console.log(this.form.value)
+    console.log(this.form.value);
   }
 }
